@@ -1,0 +1,28 @@
+# FastAPI e servidor
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.12
+pydantic==2.9.2
+pydantic-settings==2.6.0
+
+# Cliente OpenAI (para vLLM)
+openai==1.54.0
+
+# RAG e embeddings
+chromadb==0.5.20
+sentence-transformers==3.2.1
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-openai==0.2.8
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.2
+aiofiles==24.1.0
+
+# SSH e ferramentas
+paramiko==3.5.0
+gitpython==3.1.43
+
+# Logging e monitorização
+loguru==0.7.2
